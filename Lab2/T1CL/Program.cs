@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class Program {
 	static double readDouble() {
@@ -19,14 +15,13 @@ class Program {
 		var x = readDouble();
 		Console.Write("Введите y: ");
 		var y = readDouble();
-
-		if(y == -x || (x*x) + (y*y) == 100) {
-			Console.WriteLine("На границе");
-		}
-		else if(y > -x && (x*x) + (y*y) < 100) {
+		
+		if(y > -x && (x*x) + (y*y) < 100) {
 			Console.WriteLine("Внутри области");
 		}
-		else Console.WriteLine("Снаружи области");
+		else if(y < -x || (x*x) + (y*y) > 100) {
+			Console.WriteLine("Снаружи области");
+		}
+		else Console.WriteLine("На границе");
 	}
 }
-

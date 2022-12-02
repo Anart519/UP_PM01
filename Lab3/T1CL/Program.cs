@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 class Program {
 	private static double methodF(double x, double y, double z) {
@@ -29,6 +26,7 @@ class Program {
 			Console.Write("Ошибка. Введите ещё раз: ");
 		} while(true);
 	}
+
 	static void Main(string[] args) {
 		Console.Write("Введите a: ");
 		var a = readDouble();
@@ -65,13 +63,12 @@ class Program {
 			var bc = bf + fc;
 			var cd = cg + gd;
 			var ea = eg + fg + af;
-
-			//проверка многоугольника на выпуклость
-			exists = ab < Math.PI
-				&& bc < Math.PI
-				&& cd < Math.PI
-				&& de < Math.PI
-				&& ea < Math.PI;
+			
+			exists = ab < 2*Math.PI
+				&& bc < 2*Math.PI
+				&& cd < 2*Math.PI
+				&& de < 2*Math.PI
+				&& ea < 2*Math.PI;
 		}
 
 		if(!exists) {
@@ -84,4 +81,3 @@ class Program {
 		Console.WriteLine("Площадь = {0}", s);
 	}
 }
-

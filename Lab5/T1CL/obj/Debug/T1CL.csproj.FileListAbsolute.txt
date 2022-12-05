@@ -4,3 +4,9 @@ D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab5\T1CL\obj\Debug
 D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab5\T1CL\obj\Debug\T1CL.csproj.CoreCompileInputs.cache
 D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab5\T1CL\obj\Debug\T1CL.exe
 D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab5\T1CL\obj\Debug\T1CL.pdb
+D:\files\AndLab\Lab5\T1CL\bin\Debug\T1CL.exe
+D:\files\AndLab\Lab5\T1CL\bin\Debug\T1CL.pdb
+D:\files\AndLab\Lab5\T1CL\obj\Debug\T1CL.csproj.AssemblyReference.cache
+D:\files\AndLab\Lab5\T1CL\obj\Debug\T1CL.csproj.CoreCompileInputs.cache
+D:\files\AndLab\Lab5\T1CL\obj\Debug\T1CL.exe
+D:\files\AndLab\Lab5\T1CL\obj\Debug\T1CL.pdb

@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace T1WF {
@@ -48,9 +42,9 @@ namespace T1WF {
 				var x = a + i*h;
 				try {
 					var y = f(x);
-					s += string.Format("f({0:f2}) = {1:f2}", x, y);
+					s += string.Format("f({0:f2}) = {1:f2}\n", x, y);
 				} catch(Exception _) {
-					s += string.Format("f({0:f2}) не определена", x);
+					s += string.Format("f({0:f2}) не определена\n", x);
 				}
 			}
 

@@ -1,0 +1,12 @@
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2CL\bin\Debug\T2CL.exe.config
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2CL\bin\Debug\T2CL.exe
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2CL\bin\Debug\T2CL.pdb
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2CL\obj\Debug\T2CL.exe
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2CL\obj\Debug\T2CL.pdb
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2CL\bin\Debug\T2CL.exe.config
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2CL\bin\Debug\T2CL.exe
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2CL\bin\Debug\T2CL.pdb
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2CL\obj\Debug\T2CL.csprojAssemblyReference.cache
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2CL\obj\Debug\T2CL.csproj.CoreCompileInputs.cache
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2CL\obj\Debug\T2CL.exe
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2CL\obj\Debug\T2CL.pdb

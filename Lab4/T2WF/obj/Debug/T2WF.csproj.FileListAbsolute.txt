@@ -1,0 +1,17 @@
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2WF\bin\Debug\T2WF.exe.config
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2WF\bin\Debug\T2WF.exe
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2WF\bin\Debug\T2WF.pdb
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.Form1.resources
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.Properties.Resources.resources
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.csproj.GenerateResource.Cache
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.exe
+C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.pdb
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\bin\Debug\T2WF.exe.config
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\bin\Debug\T2WF.exe
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\bin\Debug\T2WF.pdb
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.Form1.resources
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.Properties.Resources.resources
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.csproj.GenerateResource.cache
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.csproj.CoreCompileInputs.cache
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.exe
+D:\Users\stu-pksp120\Documents\Андриевский\AndLab\Lab4\T2WF\obj\Debug\T2WF.pdb

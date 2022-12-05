@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Linq;
 using System.Windows.Forms;
-using System.Windows.Forms.DataVisualization.Charting;
 
 namespace T2WF {
 	public partial class Form1 : Form {
@@ -34,52 +32,23 @@ namespace T2WF {
 			double h = (double) numericUpDown3.Value;
 
 			if(a > b || h == 0) {
-				label4.Text = "Неправильные граныцы и/или шаг";
+				label4.Text = "Неправильные границы и/или шаг";
+				label5.Text = "";
 				return;
 			}
 			label4.Text = "";
 
 			var count = (int) Math.Ceiling(Math.Abs(b - a) / h) + 1;
 
-			double[] funcResults = new double[count];
-			double[] xResults = new double[count];
+			var sb = new System.Text.StringBuilder();
 
 			for(var i = 0; i < count; i++) {
 				var x = Math.Max(Math.Min(a + i*h, b), a);
 				var y = f(x);
-				xResults[i] = x;
-				funcResults[i] = y;
+				sb.AppendFormat("f({0:f2})={1:f4}\n", x, y);
 			}
 
-			Chart chart = chart1;     
-			chart.ChartAreas.Clear();
-			chart.Series.Clear();
-			chart.Legends.Clear();
-
-            ChartArea chartArea = new ChartArea();       
-            chartArea.Name = "Spline";                   
-            
-            chartArea.AxisX.Minimum = xResults.Min();    
-            chartArea.AxisX.Maximum = xResults.Max();    
-            chartArea.AxisY.Minimum = funcResults.Min(); 
-            chartArea.AxisY.Maximum = funcResults.Max(); 
-
-            chartArea.AxisX.MajorGrid.Interval = h;      
-
-            chart.ChartAreas.Add(chartArea);             
-
-            Series series = new Series();
-			series.ChartArea = "Spline";
-			series.ChartType = SeriesChartType.Spline;
-			series.BorderWidth = 3;
-
-            series.LegendText = "F(x)";
-			chart.Series.Add(series);
-
-            Legend legend = new Legend();
-			chart.Legends.Add(legend);
-
-            chart.Series[0].Points.DataBindXY(xResults, funcResults);
+			label5.Text = sb.ToString();
 		}
 	}
 }

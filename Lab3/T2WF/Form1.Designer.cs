@@ -23,11 +23,7 @@
 		/// содержимое этого метода с помощью редактора кода.
 		/// </summary>
 		private void InitializeComponent() {
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-			this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
 			this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
@@ -36,8 +32,8 @@
 			this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
 			this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
 			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
 			this.tableLayoutPanel1.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
 			this.tableLayoutPanel2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
@@ -49,32 +45,15 @@
 			this.tableLayoutPanel1.ColumnCount = 2;
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel1.Controls.Add(this.chart1, 1, 0);
 			this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
+			this.tableLayoutPanel1.Controls.Add(this.label5, 1, 0);
 			this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
 			this.tableLayoutPanel1.RowCount = 1;
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(593, 225);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(317, 304);
 			this.tableLayoutPanel1.TabIndex = 0;
-			// 
-			// chart1
-			// 
-			chartArea1.Name = "ChartArea1";
-			this.chart1.ChartAreas.Add(chartArea1);
-			this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-			legend1.Name = "Legend1";
-			this.chart1.Legends.Add(legend1);
-			this.chart1.Location = new System.Drawing.Point(99, 3);
-			this.chart1.Name = "chart1";
-			series1.ChartArea = "ChartArea1";
-			series1.Legend = "Legend1";
-			series1.Name = "Series1";
-			this.chart1.Series.Add(series1);
-			this.chart1.Size = new System.Drawing.Size(491, 219);
-			this.chart1.TabIndex = 0;
-			this.chart1.Text = "chart1";
 			// 
 			// tableLayoutPanel2
 			// 
@@ -99,7 +78,7 @@
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel2.Size = new System.Drawing.Size(90, 219);
+			this.tableLayoutPanel2.Size = new System.Drawing.Size(90, 298);
 			this.tableLayoutPanel2.TabIndex = 1;
 			// 
 			// label1
@@ -209,17 +188,25 @@
 			this.label4.Size = new System.Drawing.Size(0, 17);
 			this.label4.TabIndex = 6;
 			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.label5.Location = new System.Drawing.Point(99, 0);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(215, 304);
+			this.label5.TabIndex = 2;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(593, 225);
+			this.ClientSize = new System.Drawing.Size(317, 304);
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Name = "Form1";
 			this.Text = "Задание 3.2";
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
 			this.tableLayoutPanel2.ResumeLayout(false);
 			this.tableLayoutPanel2.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -232,7 +219,6 @@
 		#endregion
 
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-		private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
@@ -241,6 +227,7 @@
 		private System.Windows.Forms.NumericUpDown numericUpDown2;
 		private System.Windows.Forms.NumericUpDown numericUpDown3;
 		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label5;
 	}
 }
 

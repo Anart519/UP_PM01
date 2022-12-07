@@ -2,9 +2,14 @@
 
  class Program {
 	static double f(double x) {
-		var res = Math.Sqrt(x*x - 2*x + 1) / Math.Log(4 - 2*x);
-		if(double.IsNaN(res)) throw new Exception();
-		return res;
+		var f = x*x - 2*x + 1;
+		var s = 4 - 2*x;
+		if(f < 0 || s <= 0) throw new Exception();
+
+		var lns = Math.Log(s);
+		if(lns == 0) throw new Exception();
+
+		return Math.Sqrt(f) / lns;
 	}
 
 	static double readDouble() {

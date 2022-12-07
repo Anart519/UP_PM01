@@ -1,9 +1,0 @@
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\bin\Debug\T1WF.exe.config
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\bin\Debug\T1WF.exe
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\bin\Debug\T1WF.pdb
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\obj\Debug\T1WF.csprojResolveAssemblyReference.cache
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\obj\Debug\T1WF.Form1.resources
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\obj\Debug\T1WF.Properties.Resources.resources
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\obj\Debug\T1WF.csproj.GenerateResource.Cache
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\obj\Debug\T1WF.exe
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1WF\obj\Debug\T1WF.pdb

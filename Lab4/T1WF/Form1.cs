@@ -14,8 +14,8 @@ namespace T1WF {
 		}
 		
 		private void update() {
-			var n = (uint) numericUpDown1.Value;
-			var m = (uint) numericUpDown2.Value;
+			var n = (uint) numericUpDown2.Value;
+			var m = (uint) numericUpDown1.Value;
 			
 			label4.Text = "" + akkerman(n, m);
 		}

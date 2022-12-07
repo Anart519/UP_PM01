@@ -1,6 +1,0 @@
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1CL\bin\Debug\T1CL.exe.config
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1CL\bin\Debug\T1CL.exe
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1CL\bin\Debug\T1CL.pdb
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1CL\obj\Debug\T1CL.csprojResolveAssemblyReference.cache
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1CL\obj\Debug\T1CL.exe
-C:\Users\lab-2423\Documents\Андриевский\AndLab\Lab4\T1CL\obj\Debug\T1CL.pdb

@@ -28,11 +28,11 @@
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
-			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
 			this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
 			this.tableLayoutPanel1.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// tableLayoutPanel1
@@ -44,8 +44,8 @@
 			this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
 			this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
 			this.tableLayoutPanel1.Controls.Add(this.label4, 1, 2);
-			this.tableLayoutPanel1.Controls.Add(this.numericUpDown1, 1, 1);
-			this.tableLayoutPanel1.Controls.Add(this.numericUpDown2, 1, 0);
+			this.tableLayoutPanel1.Controls.Add(this.numericUpDown2, 1, 1);
+			this.tableLayoutPanel1.Controls.Add(this.numericUpDown1, 1, 0);
 			this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -100,25 +100,25 @@
 			this.label4.Size = new System.Drawing.Size(178, 17);
 			this.label4.TabIndex = 3;
 			// 
-			// numericUpDown1
-			// 
-			this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.numericUpDown1.Location = new System.Drawing.Point(77, 34);
-			this.numericUpDown1.Name = "numericUpDown1";
-			this.numericUpDown1.Size = new System.Drawing.Size(178, 25);
-			this.numericUpDown1.TabIndex = 4;
-			this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
-			// 
 			// numericUpDown2
 			// 
 			this.numericUpDown2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.numericUpDown2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.numericUpDown2.Location = new System.Drawing.Point(77, 3);
+			this.numericUpDown2.Location = new System.Drawing.Point(77, 34);
 			this.numericUpDown2.Name = "numericUpDown2";
 			this.numericUpDown2.Size = new System.Drawing.Size(178, 25);
-			this.numericUpDown2.TabIndex = 5;
-			this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
+			this.numericUpDown2.TabIndex = 4;
+			this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+			// 
+			// numericUpDown1
+			// 
+			this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+			this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.numericUpDown1.Location = new System.Drawing.Point(77, 3);
+			this.numericUpDown1.Name = "numericUpDown1";
+			this.numericUpDown1.Size = new System.Drawing.Size(178, 25);
+			this.numericUpDown1.TabIndex = 5;
+			this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
 			// 
 			// Form1
 			// 
@@ -130,8 +130,8 @@
 			this.Text = "Form1";
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
 			this.ResumeLayout(false);
 
 		}
@@ -143,8 +143,8 @@
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.NumericUpDown numericUpDown1;
 		private System.Windows.Forms.NumericUpDown numericUpDown2;
+		private System.Windows.Forms.NumericUpDown numericUpDown1;
 	}
 }
 

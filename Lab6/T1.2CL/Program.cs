@@ -8,9 +8,8 @@ class Program {
         n=int.Parse(Console.ReadLine());
         Console.Write("m = ");
         m=int.Parse(Console.ReadLine());
-		if(n <= 0 || m <= 0) { 
-			Console.WriteLine("Неправильный размер массива");
-			throw new InvalidOperationException();
+		if(n <= 0 || m <= 0) {
+			throw new InvalidOperationException("Неправильный размер массива");
 		}
         int [,]a=new int[n, m];
         for (int i = 0; i < n; ++i) 
@@ -39,15 +38,17 @@ class Program {
     }
     
     static void Main() {
+		try{
 		int n,m;
 		int[,] myArray=Input(out n, out m);
 		Console.WriteLine("Исходный массив:");
 		Print(myArray);
 		var newArr = notDivisibleBy7(myArray);
-		Console.WriteLine("Делятся на 7:");
+		Console.WriteLine("На 7 не делятся {0} элемент(-ов):", newArr.Length);
 		for(int i = 0; i < newArr.Length; i++) {
 			Console.WriteLine("({0}; {1})", newArr[i][0], newArr[i][1]);
 		}
+		} catch(Exception e){ Console.WriteLine(e.Message); }
     }
 }
 

@@ -6,8 +6,7 @@ class Program {
         Console.Write("введите размер массива: ");
         int n=int.Parse(Console.ReadLine());
 		if(n <= 0) { 
-			Console.WriteLine("Неправильный размер массива");
-			throw new InvalidOperationException();
+			throw new InvalidOperationException("Неправильный размер массива");
 		}
         int[] a = new int[n];
         for(int i = 0; i < n; ++i) {
@@ -30,11 +29,13 @@ class Program {
     }
 
     static void Main() {
+		try{
         int[] myArray=Input();
         Console.WriteLine("Исходный массив:");
         Print(myArray);
         var newArr = notDivisibleBy7(myArray);
-        Console.WriteLine("Индексы элементов, не делящихся на 7:");
+        Console.WriteLine("Индексы элементов ({0}шт.), не делящихся на 7:", newArr.Length);
         Print(newArr);
+		} catch(Exception e) { Console.WriteLine(e.Message); }
     }
 }

@@ -36,7 +36,8 @@ class Program {
 			}
 		}
 
-		Console.WriteLine("Минимальный положитетльный элемент = {0}", min);
+		if(first) Console.WriteLine("Минимального положительного элемента не существует");
+		else Console.WriteLine("Минимальный положитетльный элемент = {0}", min);
 	}
 }
 

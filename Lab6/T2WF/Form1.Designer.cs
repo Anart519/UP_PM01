@@ -35,7 +35,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(59, 26);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "Элементы\r\nчерез ; \r\n";
+			this.label1.Text = "Элементы\r\nчерез `;` \r\n";
 			// 
 			// textBox1
 			// 

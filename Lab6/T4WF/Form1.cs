@@ -11,17 +11,6 @@ namespace T4WF {
 			InitializeComponent();
 		}
 
-		static int[][] divisibleBy7(int[,] a) {
-			var res = new List<int[]>();
-			for(int i = 0; i < a.GetLength(0); ++i)
-		    for(int j = 0; j < a.GetLength(1); ++j) {
-				if(a[i, j] % 7 == 0) {
-					res.Add(new[]{i, j});
-				}
-			}
-			return res.ToArray();
-		}
-
 
 		private void textBox1_TextChanged(object sender, EventArgs e) {
 			upd();
@@ -36,15 +25,15 @@ namespace T4WF {
 				var n = (int) numericUpDown1.Value;
 
 				var res = textBox1.Text.Split(';')
-					.Select((it) => double.Parse(it)).ToArray();
+					.Select((it) => int.Parse(it)).ToArray();
 				
 				if(res.Length != n * n) throw new Exception(
 					"Неправильное число элементов массива"
 				);
 
-				var arr = new double[n][];
+				var arr = new int[n][];
 				for(int i = 0; i < n; i++) {
-					arr[i] =new double[n];
+					arr[i] =new int[n];
 					for(int j = 0; j < n; j++) {
 						arr[i][j] = res[i * n + j];
 					}
@@ -59,10 +48,10 @@ namespace T4WF {
 					throw new Exception("Неправильный номер k2");
 				}
 
-				var prods = new double[n];
+				var prods = new int[n];
 
 				for(int j = 0; j < n; j++) {
-					double prod = 1;
+					int prod = 1;
 					for(int i = k1; i <= k2; i++) {
 						prod *= arr[i][j];
 					}

@@ -57,9 +57,9 @@
 			this.массив.AutoSize = true;
 			this.массив.Location = new System.Drawing.Point(3, 0);
 			this.массив.Name = "массив";
-			this.массив.Size = new System.Drawing.Size(77, 13);
+			this.массив.Size = new System.Drawing.Size(83, 13);
 			this.массив.TabIndex = 0;
-			this.массив.Text = "Числа через ;";
+			this.массив.Text = "Числа через `;`";
 			// 
 			// label2
 			// 

@@ -1,12 +1,6 @@
 ﻿using System;
 
 class Program {
-	static double readDouble() {
-		double res;
-		while(!double.TryParse(Console.ReadLine(), out res))
-			Console.Write("Ошибка. Введите ещё раз: ");
-		return res;
-	}
 
 	static int readInt() {
 		int res;
@@ -36,27 +30,27 @@ class Program {
 			return;
 		}
 
-		var arr = new double[n][];
+		var arr = new int[n][];
 
 		for(int i = 0; i < n; i++) {
-			arr[i] = new double[n];
+			arr[i] = new int[n];
 
 			for(int j = 0; j < n; j++) {
 				Console.Write("a[{0}][{1}] = ", i, j);
-				arr[i][j] = readDouble();
+				arr[i][j] = readInt();
 			}
 		}
 
-		var prods = new double[n];
+		var prods = new int[n];
 		for(int j = 0; j < n; j++) {
-			double prod = 1;
+			int prod = 1;
 			for(int i = k1; i <= k2; i++) {
 				prod *= arr[i][j];
 			}
 			prods[j] = prod;
 		}
 
-		Console.WriteLine("Исодный массив: ");
+		Console.WriteLine("Исходный массив: ");
 		for(int i = 0; i < n; i++, Console.WriteLine())
 		for(int j = 0; j < n; j++) {
 			Console.Write("{0,5}", arr[i][j]);

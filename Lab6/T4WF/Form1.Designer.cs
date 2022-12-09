@@ -72,17 +72,17 @@
 			this.массив.AutoSize = true;
 			this.массив.Location = new System.Drawing.Point(3, 26);
 			this.массив.Name = "массив";
-			this.массив.Size = new System.Drawing.Size(77, 13);
+			this.массив.Size = new System.Drawing.Size(83, 13);
 			this.массив.TabIndex = 0;
-			this.массив.Text = "Числа через ;";
+			this.массив.Text = "Числа через `;`";
 			// 
 			// textBox1
 			// 
 			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.Location = new System.Drawing.Point(86, 29);
+			this.textBox1.Location = new System.Drawing.Point(92, 29);
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(406, 20);
+			this.textBox1.Size = new System.Drawing.Size(400, 20);
 			this.textBox1.TabIndex = 2;
 			this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
 			// 
@@ -109,14 +109,14 @@
 			// 
 			this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.numericUpDown1.Location = new System.Drawing.Point(86, 3);
+			this.numericUpDown1.Location = new System.Drawing.Point(92, 3);
 			this.numericUpDown1.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
 			this.numericUpDown1.Name = "numericUpDown1";
-			this.numericUpDown1.Size = new System.Drawing.Size(406, 20);
+			this.numericUpDown1.Size = new System.Drawing.Size(400, 20);
 			this.numericUpDown1.TabIndex = 6;
 			this.numericUpDown1.Value = new decimal(new int[] {
             1,
@@ -147,9 +147,9 @@
 			// 
 			this.numericUpDown3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.numericUpDown3.Location = new System.Drawing.Point(86, 55);
+			this.numericUpDown3.Location = new System.Drawing.Point(92, 55);
 			this.numericUpDown3.Name = "numericUpDown3";
-			this.numericUpDown3.Size = new System.Drawing.Size(406, 20);
+			this.numericUpDown3.Size = new System.Drawing.Size(400, 20);
 			this.numericUpDown3.TabIndex = 10;
 			this.numericUpDown3.ValueChanged += new System.EventHandler(this.numericUpDown3_ValueChanged);
 			// 
@@ -157,9 +157,9 @@
 			// 
 			this.numericUpDown4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.numericUpDown4.Location = new System.Drawing.Point(86, 81);
+			this.numericUpDown4.Location = new System.Drawing.Point(92, 81);
 			this.numericUpDown4.Name = "numericUpDown4";
-			this.numericUpDown4.Size = new System.Drawing.Size(406, 20);
+			this.numericUpDown4.Size = new System.Drawing.Size(400, 20);
 			this.numericUpDown4.TabIndex = 11;
 			this.numericUpDown4.ValueChanged += new System.EventHandler(this.numericUpDown4_ValueChanged);
 			// 

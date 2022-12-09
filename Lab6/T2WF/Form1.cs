@@ -24,8 +24,8 @@ namespace T2WF {
 						min = it;
 					}
 				}
-
-				label3.Text = string.Format("Минимальный положитетльный элемент = {0}", min);
+				if(first) label3.Text = "Минимального положительного элемента не существует";
+				else label3.Text = string.Format("Минимальный положительный элемент = {0}", min);
 			} 
 			catch(Exception _) {
 				label3.Text = "Ошибка в числах";

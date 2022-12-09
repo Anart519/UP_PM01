@@ -9,29 +9,40 @@ class Program {
 	}
 
 	static void Main(string[] args) {
-		Console.Write("Введите m: ");
-		var m = readInt();
-		Console.Write("Введите k: ");
-		var k = readInt();
-		if(m <= 0 || k <= 0) {
+		Console.Write("Введите n: ");
+		var n = readInt();
+		if(n <= 0) {
 			Console.WriteLine("Неправильные размеры массива");
 			return;
 		}
 
-		var mat = new int[m, k];
-
-		int num = 0;
-		for(int i = 0; i < k; i++)
-		for(int j = 0; j < m; j++) {
-			int col;
-			if(i % 2 == 0) col = j;
-			else col = m-1 - j;
-			mat[col, i] = num++;
+		var mat = new int[n, n];
+        
+		for(int i = 0; i < n; i++)
+		for(int j = 0; j < n; j++) {
+            Console.Write("mat[{0}, {1}] = ", i, j);
+            mat[i, j] = readInt();
 		}
 
-		for(int i = 0; i < m; i++, Console.WriteLine())
-		for(int j = 0; j < k; j++) 
-			Console.Write("{0}\t", mat[i, j]);
+		Console.WriteLine("Матрица: ");
+		for(int i = 0; i < n; i++, Console.WriteLine())
+		for(int j = 0; j < n; j++) {
+            Console.Write("{0} ", mat[i, j]);
+		}
+
+		bool symmetric = true;
+		for(int i = 0; i < n; i++)
+		for(int j = i+1; j < n; j++) {
+			if(mat[i, j] != mat[j, i]) {
+				symmetric = false;
+				break;
+			}
+		}
+
+		Console.WriteLine(
+			"Матрица {0}симметрична относительно главной диагонали", 
+			symmetric ? "" : "не"
+		);
 	}
 }
 
